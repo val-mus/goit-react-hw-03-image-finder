@@ -1,13 +1,14 @@
-import PhoneBook from './modules/PhoneBook/PhoneBook';
-import Section from 'components/shared/Section/Section';
+import SearchBar from './modules/SearchBar/SearchBar';
 
+import styles from './app.css';
 
 export const App = () => {
+
+  
   return (
     <>
-      <Section title={'Phonebook'}>
-          <PhoneBook />
-      </Section>
+      <SearchBar />
+      <div className={styles.App}></div>
     </>
   );
 };
