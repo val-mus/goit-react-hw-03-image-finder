@@ -1,5 +1,5 @@
 import ImageGalleryItem from './ImageGalleryItem/ImageGalleryItem';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import s from './image-gallery.module.css';
 
@@ -14,3 +14,5 @@ ImageGallery.defaultProps = {
   items: [],
 };
 export default ImageGallery;
+
+
