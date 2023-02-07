@@ -44,6 +44,7 @@ class SearchBarForm extends Component {
           value={search}
           onChange={handleChange}
           name="search"
+          required
         />
       </form>
     );

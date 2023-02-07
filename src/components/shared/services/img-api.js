@@ -20,8 +20,5 @@ export const searchImage = async (q, _page = 1) => {
   return data;
 };
 
-export const getAllPosts = async () => {
-  const { data } = await instance.get('/');
-  return data;
-};
+
 
