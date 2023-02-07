@@ -37,7 +37,7 @@ class ImageFinder extends Component {
   };
 
   render() {
-    const { items, loading, error, search } = this.state;
+    const { items, loading, error } = this.state;
     const { searchImage } = this;
     loading ? Loading.arrows() : Loading.remove();
     return (
